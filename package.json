@@ -1,0 +1,9 @@
+{
+  "name": "classroom-polynomial-forest",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24.12.0" },
+  "scripts": { "build": "node scripts/build.mjs", "test": "node --test tests/*.test.mjs" },
+  "dependencies": { "@supabase/supabase-js": "2.117.3" },
+  "devDependencies": { "esbuild": "0.28.2" }
+}
